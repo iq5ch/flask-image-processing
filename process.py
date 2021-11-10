@@ -48,7 +48,7 @@ def gaussian_adapt(img):
 
 def img_blur(img):
     img = cv2.imread(img)
-    return cv2.blur(img, (14, 14))
+    return cv2.blur(img, (13, 13))
 
 def img_sharpen(img):
     img = cv2.imread(img)
